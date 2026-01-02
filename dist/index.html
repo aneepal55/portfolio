@@ -2,186 +2,108 @@
 <html lang="en">
 
 <head>
-  <title>devfolio</title>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aneesh Pallapolu | Portfolio</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/main.bundle.css">
-  <script src="https://kit.fontawesome.com/4e5a72c756.js"></script>
+  <script src="https://kit.fontawesome.com/4e5a72c756.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <div class="navbar-item is-hidden-desktop">
-        <a href="https://github.com/aneepal55" class="icon is-large has-text-light">
-          <i class="fab fa-2x fa-github"></i>
-        </a>
+  <div class="page-shell">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="#">Aneesh</a>
       </div>
-      <div class="navbar-item is-hidden-desktop">
-        <a href="https://www.linkedin.com/in/aneeshpallapolu" class="icon is-large has-text-light">
-          <i class="fab fa-2x fa-linkedin-in"></i>
-        </a>
-      </div>
-    </div>
-    <div class="navbar-menu">
-      <div class="navbar-end">
-        <div class="navbar-item">
-          <a href="https://github.com/aneepal55" class="icon is-large has-text-light">
-            <i class="fab fa-2x fa-github"></i>
-          </a>
-        </div>
-        <div class="navbar-item">
-          <a href="https://www.linkedin.com/in/aneeshpallapolu" class="icon is-large has-text-light">
-            <i class="fab fa-2x fa-linkedin-in"></i>
-          </a>
+      <div class="navbar-menu is-active">
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <a href="https://github.com/aneepal55" class="icon is-medium">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <div class="navbar-item">
+            <a href="https://www.linkedin.com/in/aneeshpallapolu" class="icon is-medium">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+          <div class="navbar-item">
+            <a class="button" href="docs/Aneesh_Pallapolu_Resume.pdf" target="_blank">Resume</a>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <section class="hero is-primary">
-    <div class="hero-body">
-      <div class="container">
-        <div class="level">
-          <div class="level-item has-text-centered">
-            <figure class="image is-128x128">
-              <img class="is-rounded" src="img/aneesh.png">
+    <section class="hero">
+      <div class="columns is-vcentered">
+        <div class="column is-7">
+          <div class="tagline"><i class="fas fa-bolt"></i><span>Software Engineer</span></div>
+          <h1 class="title is-1">Aneesh Pallapolu</h1>
+          <h2 class="subtitle is-4">Python, JavaScript/TypeScript, React, SQL</h2>
+          <p class="is-size-5">Building reliable web experiences with modern stacks, thoughtful UX, and cloud-backed workflows.</p>
+          <div class="cta-group">
+            <a class="button cta-primary" href="docs/Aneesh_Pallapolu_Resume.pdf" target="_blank"><i class="fas fa-file"></i>&nbsp;&nbsp;View Resume</a>
+            <a class="button cta-secondary" href="#contact"><i class="fas fa-arrow-down"></i>&nbsp;&nbsp;Contact</a>
+          </div>
+        </div>
+        <div class="column is-5">
+          <div class="avatar-card">
+            <figure class="image">
+              <img src="img/aneesh.png" alt="Portrait of Aneesh Pallapolu" />
             </figure>
           </div>
         </div>
-        <div class="columns has-text-centered">
-          <div class="column">
-            <h1 class="title is-1">
-              Aneesh Pallapolu
-            </h1>
-            <h2 class="subtitle">
-              Python, JavaScript/TypeScript, React, SQL
-            </h2>
-            <p>
-              <a href="docs/Aneesh_Pallapolu_Resume.pdf" target="_blank" class="icon has-text-light">
-                <i class="fas fa-file-word"></i> <strong>Resume</strong>
-              </a>
-            </p>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading">
+        <div class="section-title">About Me</div>
+      </div>
+      <div class="glass-card">
+        <p>I am a Software Engineer with experience designing and developing web-based software solutions using Python, TypeScript, and modern frameworks. I have foundational exposure to cloud-based software development through academic work, internships, and hands-on projects, including use of Salesforce CRM and AWS cloud services. My experience with AI and ML comes from coursework and project-based implementations, where I focused on integrating models into larger web systems and supporting data-driven features. I am comfortable working in Agile environments, contributing to system design discussions, writing and testing code, and continuously improving my technical skills.</p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <div class="section-title">Technical Skills</div>
+      </div>
+      <div class="panel-grid">
+        <div class="glass-card">
+          <h3>Languages</h3>
+          <div class="project-meta">
+            <span class="pill">Python</span><span class="pill">TypeScript</span><span class="pill">JavaScript</span><span class="pill">PHP</span><span class="pill">HTML/CSS</span><span class="pill">C#</span><span class="pill">Java</span><span class="pill">MySQL</span>
+          </div>
+        </div>
+        <div class="glass-card">
+          <h3>Frameworks</h3>
+          <div class="project-meta">
+            <span class="pill">React</span><span class="pill">Node.js</span><span class="pill">Flask</span><span class="pill">Express.js</span><span class="pill">React Native</span><span class="pill">Expo</span><span class="pill">Next.js</span>
+          </div>
+        </div>
+        <div class="glass-card">
+          <h3>Cloud & DevOps</h3>
+          <div class="project-meta">
+            <span class="pill">Salesforce</span><span class="pill">AWS Lambda</span><span class="pill">Firebase</span><span class="pill">CI/CD pipelines</span><span class="pill">GitHub Actions</span><span class="pill">Cloud deployment</span>
+          </div>
+        </div>
+        <div class="glass-card">
+          <h3>Libraries & Tools</h3>
+          <div class="project-meta">
+            <span class="pill">pandas</span><span class="pill">NumPy</span><span class="pill">Matplotlib</span><span class="pill">OpenAI APIs</span><span class="pill">Git & GitHub</span><span class="pill">VS Code</span><span class="pill">Jupyter Notebooks</span><span class="pill">MongoDB</span><span class="pill">Firestore</span><span class="pill">Jira & Confluence</span><span class="pill">Figma</span><span class="pill">Clerk</span>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="section">
-    <div class="container">
-      <h1 class="title">About Me</h1>
-      <hr />
-      <p>I am a Software Engineer with experience designing and developing web-based software solutions using Python, TypeScript, and modern frameworks. I have foundational exposure to cloud-based software development through academic work, internships, and hands-on projects, including use of Salesforce CRM and AWS cloud services. My experience with AI and ML comes from coursework and project-based implementations, where I focused on integrating models into larger web systems and supporting data-driven features. I am comfortable working in Agile environments, contributing to system design discussions, writing and testing code, and continuously improving my technical skills.
-      </p>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <h1 class="title">Technical Skills</h1>
-      <hr />
-      <div class="columns is-multiline">
-        <div class="column is-one-quarter-desktop is-half-tablet is-full-mobile">
-          <div class="card">
-            <header class="card-header">
-              <p class="card-header-title">Languages</p>
-            </header>
-            <div class="card-content">
-              <div class="content">
-                <ul>
-                  <li>Python</li>
-                  <li>TypeScript</li>
-                  <li>JavaScript</li>
-                  <li>PHP</li>
-                  <li>HTML/CSS</li>
-                  <li>C#</li>
-                  <li>Java</li>
-                  <li>MySQL</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="column is-one-quarter-desktop is-half-tablet is-full-mobile">
-          <div class="card">
-            <header class="card-header">
-              <p class="card-header-title">Frameworks</p>
-            </header>
-            <div class="card-content">
-              <div class="content">
-                <ul>
-                  <li>React</li>
-                  <li>Node.js</li>
-                  <li>Flask</li>
-                  <li>Express.js</li>
-                  <li>React Native</li>
-                  <li>Expo</li>
-                  <li>Next.js</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="column is-one-quarter-desktop is-half-tablet is-full-mobile">
-          <div class="card">
-            <header class="card-header">
-              <p class="card-header-title">Cloud & DevOps</p>
-            </header>
-            <div class="card-content">
-              <div class="content">
-                <ul>
-                  <li>Salesforce</li>
-                  <li>AWS Lambda</li>
-                  <li>Firebase</li>
-                  <li>CI/CD pipelines</li>
-                  <li>GitHub Actions</li>
-                  <li>Cloud deployment</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="column is-one-quarter-desktop is-half-tablet is-full-mobile">
-          <div class="card">
-            <header class="card-header">
-              <p class="card-header-title">Libraries & Tools</p>
-            </header>
-            <div class="card-content">
-              <div class="content">
-                <ul>
-                  <li>pandas</li>
-                  <li>NumPy</li>
-                  <li>Matplotlib</li>
-                  <li>OpenAI APIs</li>
-                  <li>Git & GitHub</li>
-                  <li>VS Code</li>
-                  <li>Jupyter Notebooks</li>
-                  <li>MongoDB</li>
-                  <li>Firestore</li>
-                  <li>Jira & Confluence</li>
-                  <li>Figma</li>
-                  <li>Clerk</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        
+    <section class="section" id="experience">
+      <div class="section-heading">
+        <div class="section-title">Experience</div>
       </div>
-    </div>
-  </section>
-  
-  
-  <section class="section">
-    <div class="container">
-      <h1 class="title">Experience</h1>
-      <hr />
-      <div class="card">
-        <div class="card-content">
+      <div class="panel-grid">
+        <div class="glass-card experience-card">
           <div class="media">
             <div class="media-left">
               <figure class="image is-48x48">
@@ -190,23 +112,19 @@
             </div>
             <div class="media-content">
               <p class="title is-4">Greenstand</p>
-              <p class="subtitle is-6">Software Engineer - <time datetime="2025-8">Aug 2025</time> - Present</p>
+              <p class="subtitle is-6">Software Engineer · <time datetime="2025-8">Aug 2025</time> - Present</p>
             </div>
           </div>
-          <div class="content">
-            <ul>
-              <li>Developing and expanding core features across Greenstand's web and mobile platforms using TypeScript, React, and React Native.</li>
-              <li>Engineering clean integrations between frontend components and backend services to improve performance and scalability.</li>
-              <li>Collaborating with engineers and stakeholders to define technical requirements and contribute to architectural decisions.</li>
-              <li>Implementing, testing, and debugging features to ensure stability and a consistent end-to-end user experience.</li>
-              <li>Documenting feature behavior and technical considerations to support team collaboration.</li>
-              <li>Participating in Agile development cycles, including planning discussions and retrospectives.</li>
-            </ul>
-          </div>
+          <ul class="list-tight">
+            <li>Developing and expanding core features across Greenstand's web and mobile platforms using TypeScript, React, and React Native.</li>
+            <li>Engineering clean integrations between frontend components and backend services to improve performance and scalability.</li>
+            <li>Collaborating with engineers and stakeholders to define technical requirements and contribute to architectural decisions.</li>
+            <li>Implementing, testing, and debugging features to ensure stability and a consistent end-to-end user experience.</li>
+            <li>Documenting feature behavior and technical considerations to support team collaboration.</li>
+            <li>Participating in Agile development cycles, including planning discussions and retrospectives.</li>
+          </ul>
         </div>
-      </div>
-      <div class="card card-gap">
-        <div class="card-content">
+        <div class="glass-card experience-card">
           <div class="media">
             <div class="media-left">
               <figure class="image is-48x48">
@@ -215,347 +133,252 @@
             </div>
             <div class="media-content">
               <p class="title is-4">McKesson</p>
-              <p class="subtitle is-6">Cover MyMeds Technology Intern - <time datetime="2025-6">Jun 2025</time> - <time
-                  datetime="2025-8">Aug 2025</time> </p>
+              <p class="subtitle is-6">Cover MyMeds Technology Intern · <time datetime="2025-6">Jun 2025</time> - <time datetime="2025-8">Aug 2025</time></p>
             </div>
           </div>
-          <div class="content">
-            <ul>
-              <li>Re-architected a legacy PHP-based screen using Remix React, reducing load times by 30%.</li>
-              <li>Translated backend API logic from PHP to TypeScript to improve clarity and maintainability.</li>
-              <li>Worked with engineers and product managers to align implementation with healthcare domain requirements.</li>
-              <li>Wrote unit-level tests, assisted with debugging, and participated in peer code reviews.</li>
-              <li>Contributed to Agile Scrum workflows using Jira to track tasks and user stories.</li>
-              <li>Documented technical changes in Confluence to support team knowledge sharing.</li>
-              <li>Supported CI/CD workflows and build automation using tools such as Jenkins.</li>
-            </ul>
-          </div>
+          <ul class="list-tight">
+            <li>Re-architected a legacy PHP-based screen using Remix React, reducing load times by 30%.</li>
+            <li>Translated backend API logic from PHP to TypeScript to improve clarity and maintainability.</li>
+            <li>Worked with engineers and product managers to align implementation with healthcare domain requirements.</li>
+            <li>Wrote unit-level tests, assisted with debugging, and participated in peer code reviews.</li>
+            <li>Contributed to Agile Scrum workflows using Jira to track tasks and user stories.</li>
+            <li>Documented technical changes in Confluence to support team knowledge sharing.</li>
+            <li>Supported CI/CD workflows and build automation using tools such as Jenkins.</li>
+          </ul>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="section">
-    <div class="container">
-      <h1 class="title">Projects</h1>
-      <hr />
-      <div class="tile is-ancestor">
-        <div class="tile is-vertical is-12">
-          <div class="tile">
-            <div class="tile is-parent">
-              <article class="tile is-child notification">
-                <p class="title">Effipay</p>
-                <figure class="image is-3by2">
-                  <img class="modal-trigger" data-target="project-1-modal" src="img/effipay.png">
-                </figure>
-              </article>
-            </div>
-            <div class="tile is-parent">
-              <article class="tile is-child notification">
-                <p class="title">Panther Insights</p>
-                <figure class="image ">
-                  <img class="modal-trigger" data-target="project-2-modal" src="img/pantherinsights.png">
-                </figure>
-              </article>
-            </div>
-            <div class="tile is-parent">
-              <article class="tile is-child notification">
-                <p class="title">Kavi Media Landing Website</p>
-                <figure class="image is-4by3">
-                  <img class="modal-trigger" data-target="project-3-modal" src="img/kavi.png">
-                </figure>
-              </article>
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <div class="section-title">Projects</div>
+      </div>
+      <div class="panel-grid">
+        <div class="project-card modal-trigger" data-target="project-1-modal">
+          <img src="img/effipay.png" alt="Effipay preview">
+          <div class="project-body">
+            <p class="title is-4">Effipay</p>
+            <p class="is-size-6">AI-powered payment routing and insights experience.</p>
+            <div class="project-meta">
+              <span class="pill is-ghost">Next.js</span><span class="pill is-ghost">Python</span><span class="pill is-ghost">AWS Lambda</span>
             </div>
           </div>
         </div>
-      </div>
-      
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <h1 class="title">Education</h1>
-      <hr />
-      <div class="card">
-        <div class="card-content">
-          <div class="content">
-            <p class="title is-4">Georgia State University | Atlanta, GA</p>
-            <p class="subtitle is-6">Bachelor of Science in Computer Science | Graduated: May 2025</p>
+        <div class="project-card modal-trigger" data-target="project-2-modal">
+          <img src="img/pantherinsights.png" alt="Panther Insights preview">
+          <div class="project-body">
+            <p class="title is-4">Panther Insights</p>
+            <p class="is-size-6">Student-driven professor reviews with charts and ratings.</p>
+            <div class="project-meta">
+              <span class="pill is-ghost">Next.js</span><span class="pill is-ghost">TypeScript</span><span class="pill is-ghost">Python</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card modal-trigger" data-target="project-3-modal">
+          <img src="img/kavi.png" alt="Kavi Media preview">
+          <div class="project-body">
+            <p class="title is-4">Kavi Media Landing Website</p>
+            <p class="is-size-6">Responsive marketing page with PHP-backed submissions.</p>
+            <div class="project-meta">
+              <span class="pill is-ghost">HTML/CSS</span><span class="pill is-ghost">JavaScript</span><span class="pill is-ghost">PHP</span>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="section">
-    <div class="container">
-      <h1 class="title">Related Coursework</h1>
-      <hr />
-      <div class="content">
+    <section class="section" id="education">
+      <div class="section-heading">
+        <div class="section-title">Education</div>
+      </div>
+      <div class="glass-card education-card">
+        <p class="title is-4">Georgia State University | Atlanta, GA</p>
+        <p class="subtitle is-6">Bachelor of Science in Computer Science | Graduated: May 2025</p>
+      </div>
+    </section>
+
+    <section class="section" id="coursework">
+      <div class="section-heading">
+        <div class="section-title">Related Coursework</div>
+      </div>
+      <div class="glass-card">
         <p>Data Structures, System-Level Programming (C), Computer Organization and Programming (Assembly Language), Software Development (Java & SQL), Software Engineering (Full-Stack), Web Programming (HTML, CSS, PHP & JavaScript), Design Analysis Algorithms, Database Systems, Data Mining, Fundamentals of Data Science, Machine Learning, Intro to Deep Learning.</p>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="section">
-    <div class="container">
-      <h1 class="title">Certifications</h1>
-      <hr />
-      <div class="tile is-ancestor">
-        <div class="tile is-parent">
-          <article class="tile is-child notification">
-            <span class="icon is-large">
-              <i class="fab fa-python"></i>
-            </span>
-            <p class="title">PCEP (Certified Entry-Level Python Programmer)</p>
-            <p class="subtitle">Credential ID: aYjm.6YeV.mx7N</p>
-          </article>
+    <section class="section" id="certifications">
+      <div class="section-heading">
+        <div class="section-title">Certifications</div>
+      </div>
+      <div class="cert-grid">
+        <div class="glass-card cert-card">
+          <span class="icon is-medium"><i class="fab fa-python"></i></span>
+          <p class="title is-5">PCEP (Certified Entry-Level Python Programmer)</p>
+          <p class="subtitle is-6">Credential ID: aYjm.6YeV.mx7N</p>
         </div>
-        <div class="tile is-parent">
-          <article class="tile is-child notification">
-            <span class="icon is-large">
-              <i class="fab fa-python"></i>
-            </span>
-            <p class="title">PCAP (Certified Associate in Python Programming)</p>
-            <p class="subtitle">Credential ID: mwP8.92FR.xMPz</p>
-          </article>
+        <div class="glass-card cert-card">
+          <span class="icon is-medium"><i class="fab fa-python"></i></span>
+          <p class="title is-5">PCAP (Certified Associate in Python Programming)</p>
+          <p class="subtitle is-6">Credential ID: mwP8.92FR.xMPz</p>
+        </div>
+        <div class="glass-card cert-card">
+          <span class="icon is-medium"><i class="fab fa-salesforce"></i></span>
+          <p class="title is-5">Salesforce Certified AI Associate</p>
+          <p class="subtitle is-6">Credential ID: 5525857</p>
+        </div>
+        <div class="glass-card cert-card">
+          <span class="icon is-medium"><i class="fab fa-salesforce"></i></span>
+          <p class="title is-5">Salesforce Certified Agentforce Specialist</p>
+          <p class="subtitle is-6">Credential ID: 7320907</p>
+        </div>
+        <div class="glass-card cert-card">
+          <span class="icon is-medium"><i class="fab fa-aws"></i></span>
+          <p class="title is-5">AWS Certified Machine Learning Associate</p>
+          <p class="subtitle is-6">In Progress</p>
         </div>
       </div>
-      <div class="tile is-ancestor">
-        <div class="tile is-parent">
-          <article class="tile is-child notification">
-            <span class="icon is-large">
-              <i class="fab fa-salesforce"></i>
-            </span>
-            <p class="title">Salesforce Certified AI Associate</p>
-            <p class="subtitle">Credential ID: 5525857</p>
-          </article>
+    </section>
+
+    <section class="section" id="activities">
+      <div class="section-heading">
+        <div class="section-title">Activities</div>
+      </div>
+      <div class="panel-grid">
+        <div class="glass-card">
+          <p class="title is-5"><img src="img/gsu.png" alt="GSU" style="width:20px; height:20px; margin-right:8px;">GSU Technology Immersion Challenge - 2024</p>
+          <p>2nd place winner at the Cybersecurity Hackathon.</p>
         </div>
-        <div class="tile is-parent">
-          <article class="tile is-child notification">
-            <span class="icon is-large">
-              <i class="fab fa-salesforce"></i>
-            </span>
-            <p class="title">Salesforce Certified Agentforce Specialist</p>
-            <p class="subtitle">Credential ID: 7320907</p>
-          </article>
+        <div class="glass-card">
+          <p class="title is-5"><i class="fas fa-trophy" style="margin-right:8px;"></i>FBLA Competition - 2019</p>
+          <p>8th place winner at the Georgia State-Level Future Business Leaders of America (FBLA) competition.</p>
         </div>
       </div>
-      <div class="tile is-ancestor">
-        <div class="tile is-parent">
-          <article class="tile is-child notification">
-            <span class="icon is-large">
-              <i class="fab fa-aws"></i>
-            </span>
-            <p class="title">AWS Certified Machine Learning Associate</p>
-            <p class="subtitle">In Progress</p>
-          </article>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="section-heading">
+        <div class="section-title">Contact</div>
+      </div>
+      <div class="contact-card">
+        <div class="contact-chip">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <div class="is-size-6 has-text-weight-semibold">Email</div>
+            <a href="mailto:yaagnik.p@gmail.com">yaagnik.p@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-chip">
+          <i class="fas fa-phone"></i>
+          <div>
+            <div class="is-size-6 has-text-weight-semibold">Phone</div>
+            <a href="tel:4703895015">470-389-5015</a>
+          </div>
+        </div>
+        <div class="contact-chip">
+          <i class="fab fa-linkedin-in"></i>
+          <div>
+            <div class="is-size-6 has-text-weight-semibold">LinkedIn</div>
+            <a href="https://www.linkedin.com/in/aneeshpallapolu">linkedin.com/in/aneeshpallapolu</a>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  
-  
-  <style>
-    /* Ensure each card is the same height and content stretches */
-    .card {
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-    }
-    .card-content {
-      flex-grow: 1;
-    }
-  </style>
-  
-  <section class="section">
-    <div class="container">
-      <h1 class="title">Activities</h1>
-      <hr />
-      <div class="columns is-multiline">
-        <div class="column is-one-half-desktop is-half-tablet is-full-mobile">
-          <div class="card">
-            <header class="card-header">
-              <p class="card-header-title">
-                <img src="img/gsu.png" alt="Square image" style="width:20px; height:20px; margin-right:8px;">
-                GSU Technology Immersion Challenge - 2024
-              </p>
-            </header>
-            <div class="card-content">
-              <div class="content">
-                2nd place winner at the Cybersecurity Hackathon.
-              </div>
+    </section>
+
+    <!-- Modals -->
+    <div id="project-1-modal" class="modal">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Effipay</p>
+          <button class="delete" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body">
+          <div class="content">
+            <ul>
+              <li>Developed an AI-powered payment routing engine using AWS Lambda to optimize payment methods.</li>
+              <li>Engineered a credit card recommendation system with MongoDB vector search and BERT-based embeddings.</li>
+              <li>Built an interactive insights dashboard with integrated chatbot support for real-time expenditure analysis.</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">Next.js</span>
+              <span class="tag">Python</span>
+              <span class="tag">AWS Lambda</span>
+              <span class="tag">MongoDB</span>
+              <span class="tag">OpenAI</span>
+              <span class="tag">Plaid</span>
             </div>
           </div>
-        </div>
-        
-        <div class="column is-one-half-desktop is-half-tablet is-full-mobile">
-          <div class="card">
-            <header class="card-header">
-              <p class="card-header-title">
-                <i class="fas fa-trophy" style="width:20px; height:20px; margin-right:8px;"></i>
-                FBLA Competition - 2019
-              </p>
-            </header>
-            <div class="card-content">
-              <div class="content">
-                8th place winner at the Georgia State-Level Future Business Leaders of America (FBLA) competition.
-              </div>
-            </div>
-          </div>
-        </div>
-        
+        </section>
+        <footer class="modal-card-foot">
+          <button class="button is-success">Close</button>
+        </footer>
       </div>
     </div>
-  </section>
-  
 
-  <section class="section">
-    <div class="container">
-      <h1 class="title">Contact</h1>
-      <hr />
-      <nav class="level">
-        <div class="level-item has-text-centered">
-          <div>
-            <a href="mailto:yaagnik.p@gmail.com" class="icon is-large">
-              <i class="fas fa-2x fa-envelope"></i>
-            </a>
-            <p class="heading"><a href="mailto:yaagnik.p@gmail.com">yaagnik.p@gmail.com</a></p>
-          </div>         
-        </div>
-        <div class="level-item has-text-centered">
-          <div>
-            <a href="tel:4703895015" class="icon is-large">
-              <i class="fas fa-2x fa-phone"></i>
-            </a>
-            <p class="heading"><a href="tel:1234567890">470-389-5015</a></p>
-          </div> 
-        </div>
-        <div class="level-item has-text-centered">
-          <div>
-            <a href="https://www.linkedin.com/in/aneeshpallapolu" class="icon is-large">
-              <i class="fab fa-2x fa-linkedin-in"></i>
-            </a>
-            <p class="heading"><a href="https://www.linkedin.com/in/aneeshpallapolu">linkedin</a></p>
+    <div id="project-2-modal" class="modal">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Panther Insights</p>
+          <button class="delete" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body">
+          <div class="content">
+            <ul>
+              <li>Developed a platform for GSU students to review computer science professors.</li>
+              <li>Implemented charts and ratings to provide insights into teaching styles and effectiveness.</li>
+              <li>Collaborated with a team to enhance technical skills and support student decision-making.</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">Next.js</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Python</span>
+              <span class="tag">Firestore</span>
+              <span class="tag">Tailwind CSS</span>
+            </div>
           </div>
-        </div>
-      </nav>
+        </section>
+        <footer class="modal-card-foot">
+          <button class="button is-success">Close</button>
+        </footer>
+      </div>
     </div>
-  </section>
 
-  <!-- Modals -->
-  <div id="project-1-modal" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card">
-      <header class="modal-card-head">
-        <p class="modal-card-title">Effipay</p>
-        <button class="delete" aria-label="close"></button>
-      </header>
-      <section class="modal-card-body">
-
-        
-
-        <div class="content">
-
-          <ul>
-            <li>Developed an AI-powered payment routing engine using AWS Lambda to optimize payment methods.</li>
-            <li>Engineered a credit card recommendation system with MongoDB vector search and BERT-based embeddings.</li>
-            <li>Built an interactive insights dashboard with integrated chatbot support for real-time expenditure analysis.</li>
-          </ul>
-
-          <div class="tags">
-            <span class="tag">Next.js</span>
-            <span class="tag">Python</span>
-            <span class="tag">AWS Lambda</span>
-            <span class="tag">MongoDB</span>
-            <span class="tag">OpenAI</span>
-            <span class="tag">Plaid</span>
+    <div id="project-3-modal" class="modal">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Kavi Media Landing Website</p>
+          <button class="delete" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body">
+          <div class="content">
+            <ul>
+              <li>Designed and developed a responsive landing page to showcase platform services.</li>
+              <li>Integrated PHP for backend processing to manage form submissions.</li>
+            </ul>
+            <div class="tags">
+              <span class="tag">HTML/CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">PHP</span>
+            </div>
           </div>
-
-        </div>
-
-      </section>
-      <footer class="modal-card-foot">
-        <button class="button is-success">Close</button>
-      </footer>
+        </section>
+        <footer class="modal-card-foot">
+          <button class="button is-success">Close</button>
+        </footer>
+      </div>
     </div>
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <a href="https://github.com/mmacneil/devfolio" target="_blank" class="icon has-text-primary">
+            <i class="fab fa-github"></i> <strong>Portfolio</strong></a>
+        </p>
+      </div>
+    </footer>
   </div>
-
-  <div id="project-2-modal" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card">
-      <header class="modal-card-head">
-        <p class="modal-card-title">Panther Insights</p>
-        <button class="delete" aria-label="close"></button>
-      </header>
-      <section class="modal-card-body">
-
-      
-
-        <div class="content">
-
-          <ul>
-            <li>Developed a platform for GSU students to review computer science professors.</li>
-            <li>Implemented charts and ratings to provide insights into teaching styles and effectiveness.</li>
-            <li>Collaborated with a team to enhance technical skills and support student decision-making.</li>
-          </ul>
-          
-
-          <div class="tags">
-            <span class="tag">Next.js</span>
-            <span class="tag">TypeScript</span>
-            <span class="tag">Python</span>
-            <span class="tag">Firestore</span>
-            <span class="tag">Tailwind CSS</span>
-          </div>
-
-        </div>
-
-      </section>
-      <footer class="modal-card-foot">
-        <button class="button is-success">Close</button>
-      </footer>
-    </div>
-  </div>
-
-  <div id="project-3-modal" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card">
-      <header class="modal-card-head">
-        <p class="modal-card-title">Kavi Media Landing Website</p>
-        <button class="delete" aria-label="close"></button>
-      </header>
-      <section class="modal-card-body">
-
-        <div class="content">
-          <ul>
-            <li>Designed and developed a responsive landing page to showcase platform services.</li>
-            <li>Integrated PHP for backend processing to manage form submissions.</li>
-          </ul>
-          
-          <div class="tags">
-            <span class="tag">HTML/CSS</span>
-            <span class="tag">JavaScript</span>
-            <span class="tag">PHP</span>
-          </div>
-        </div>
-
-      </section>
-      <footer class="modal-card-foot">
-        <button class="button is-success">Close</button>
-      </footer>
-    </div>
-  </div>
-
-
-  <footer class="footer">
-    <div class="content has-text-centered">
-      <p>
-        <a href="https://github.com/mmacneil/devfolio" target="_blank" class="icon has-text-primary">
-          <i class="fab fa-github"></i> <strong>Portfolio</strong></a>
-      </p>
-    </div>
-  </footer>
 
   <script src="js/bundle.js"></script>
 </body>

@@ -23,7 +23,10 @@ module.exports = {
             loader: 'sass-loader',
             options: {
               sourceMap: true,
-              // options...
+              sassOptions: {
+                // Suppress deprecation noise from dependency imports (Bulma uses @import internally)
+                quietDeps: true
+              }
             }
           }
         ]

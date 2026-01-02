@@ -1,12 +1,6 @@
 require('./styles.scss');
 
-var Flickity = require('flickity');
-require('flickity-imagesloaded');
-
-var $carousels = new Array();
-
-// Modals
-
+// Basic modal handling without external carousel dependencies
 var rootEl = document.documentElement;
 var $modals = getAll('.modal');
 var $modalTriggers = getAll('.modal-trigger');
@@ -31,37 +25,15 @@ if ($modalCloses.length > 0) {
 
 function openModal(target) {
     var $target = document.getElementById(target);
+    if (!$target) return;
     rootEl.classList.add('is-clipped');
     $target.classList.add('is-active');
-    var carouselId = target + '-carousel';
-
-    if (document.querySelector('#' + carouselId)) {
-        // Initialize each carousel one time only
-        if ($carousels.length === 0) {
-            $carousels.push(initCarousel(carouselId));
-        }
-        else {
-            var index = $carousels.findIndex(c => c.element.id == carouselId);
-            if (index === -1) {
-                $carousels.push(initCarousel(carouselId));
-            }
-        }
-    }
 }
 
 function closeModals() {
     rootEl.classList.remove('is-clipped');
     $modals.forEach(function ($el) {
         $el.classList.remove('is-active');
-    });
-}
-
-// Functions
-
-function initCarousel(id) {
-    return new Flickity('#' + id, {
-        imagesLoaded: true,
-        adaptiveHeight: true // https://github.com/metafizzy/flickity/issues/11
     });
 }
 
